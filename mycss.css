@@ -1,8 +1,116 @@
-.color{
-background: #E0F8F1;
+body{
+    background: #BA5370;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F4E2D8, #BA5370); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
 }
-.ima{
-    width:150x;
-    height:150px;
-    border: 1px solid #f0f0f0;
+#contenedor{
+    min-width: 1000px;
+}
+.central{
+    vertical-align: top;
+}
+#panel{
+    width: 25%;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 250px;
+}
+img{
+    border-radius: 30px;
+    width: 80%;
+    height: 90%;
+    min-width: 15%;
+
+}
+#iconoderedessociales{
+    text-align: center;
+}
+.redessociales{
+    box-sizing: border-box;
+    display: inline;
+    width: 15%;
+    margin-left: 10px;
+    
+}
+.redessociales:hover{
+    transform: scale(1.3)
+}
+a{
+    font-size:20px;
+    color:#100;
+    text-decoration: none;
+    }
+
+#selectores{
+    font-family: 'Assistant', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin:auto;
+    list-style: none;
+}
+.panel{
+    background: rgb(211, 183, 198);
+    padding:10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+}
+#contenido{
+    width: 70%;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    min-width: 400px;
+}
+.seccion{
+    background: white;
+    padding: 2px 5px 5px 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(122, 101, 141);
+}
+#datos{
+    padding-left: 2px;
+}
+
+h3, h4{
+    color: rgb(122, 101, 141);
+}
+h3{
+    border-bottom: 2px groove  rgb(122, 101, 141);
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 17px;
+}
+.imagen{
+    background-color: transparent;
+    width: 155px;
+}
+.imagen:hover{
+    transform: scale(1.3)
+}
+.listado{
+    list-style-type: none; 
+    background-color: transparent;
+    box-sizing: border-box;
+    display: inline;
+}
+.home{
+    padding-inline-end: 80%;
 }
